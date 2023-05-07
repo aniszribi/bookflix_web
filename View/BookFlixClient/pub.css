@@ -1,0 +1,27 @@
+
+#img {
+    position: fixed;
+    top:17%;
+    left: 20%;
+    z-index: 200;
+    display: none;
+  }
+  
+  #cancel {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
